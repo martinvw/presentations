@@ -1,0 +1,93 @@
+About the Why and How of Code Reviews
+=====================================
+:author:    Martin van Wingerden
+:backend:   slidy
+:max-width: 45em
+:data-uri:
+:icons:
+
+Overview
+--------
+
+Table of contents
+
+* Who am I
+* Why reviewing
+* How
+* Challenges
+* Results
+
+Who am I
+--------
+
+* Technical University of Eindhoven, the Netherlands [graduated 2008]
+* Full time developer
+* Started using openHAB [2015]
+* First openHAB contribution  [September 2016]
+* Maintainer for OH2 [March 2017]
+* Freelance Java Consultant [November 2017]
+
+Why reviewing
+-------------
+
+[float]
+=== To mature the code by challenging it
+
+[role="incremental"]
+
+- Catch some (potential) bugs
+- Creating easier to maintain code for the future
+- Create a better baseline / example
+
+
+[quote, Graydon Hoare, Creator of Rust]
+____________________________________________________________________
+Code Review is the single greatest way of noticing and killing bugs,
+increasing overall understanding, fixing design problems, and
+learning from one another.
+____________________________________________________________________
+
+
+How
+---
+
+* Static analysis
+* Manual labor
+
+
+How: Static analysis
+--------------------
+
+* Validates hard requirements
+* Perform boring labor
+
+[float]
+==== Examples
+- Are copyright headers present
+- Is `about.html` present and included in build result
+
+How: Manual labor
+-----------------
+
+Focus on:
+
+[role="incremental"]
+- Code should do what it appears to do
+- Adhere to the coding guidelines
+- Code can be complex if needed but preferably it should be simple
+- Preferably it should read like an exciting novel 😉
+
+NOTE: Strive that people can contribute on their own level
+
+Challenges
+----------
+
+* Responding in time to incoming PR's
+* Seeing things that are missing
+
+Results
+-------
+
+* One new release
+* 25 new add-ons
+* Many new automated checks (thanks to Musalasoft)
