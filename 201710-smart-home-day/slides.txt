@@ -39,6 +39,17 @@ Why reviewing
 - Creating easier to maintain code for the future
 - Create a better baseline / example
 
+Why reviewing
+-------------
+
+[float]
+=== To mature the code by challenging it
+
+- Catch some (potential) bugs
+- Creating easier to maintain code for the future
+- Create a better baseline / example
+
+// ---
 
 [quote, Graydon Hoare, Creator of Rust]
 ____________________________________________________________________
@@ -46,7 +57,6 @@ Code Review is the single greatest way of noticing and killing bugs,
 increasing overall understanding, fixing design problems, and
 learning from one another.
 ____________________________________________________________________
-
 
 How
 ---
@@ -75,15 +85,27 @@ Focus on:
 - Code should do what it appears to do
 - Adhere to the coding guidelines
 - Code can be complex if needed but preferably it should be simple
-- Preferably it should read like an exciting novel 😉
+- It should read like an exciting novel 😉
+
+How: Manual labor
+-----------------
+
+Focus on:
+
+- Code should do what it appears to do
+- Adhere to the coding guidelines
+- Code can be complex if needed but preferably it should be simple
+- It should read like an exciting novel 😉
 
 NOTE: Strive that people can contribute on their own level
 
 Challenges
 ----------
 
-* Responding in time to incoming PR's
 * Seeing things that are missing
+* Responding in time to incoming PR's
+
+image::images/time.jpg[]
 
 Results
 -------
